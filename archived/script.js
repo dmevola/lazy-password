@@ -10,12 +10,13 @@ var specialChar = ["!","@","#","$","%","^","&","*","(",",",")","?","/",";",":","
 // var specialChar = "~!@#$%^&*()_+=-`"
 
 // user selection and final generated password
-var userSelection = [];
+// var userSelection = [];
 
 // generate password function
 
 function generatePassword() {
 
+  var userSelection = [];
   // password length prompt
 
   var passLength = prompt("Please enter a number between 8 and 128");
